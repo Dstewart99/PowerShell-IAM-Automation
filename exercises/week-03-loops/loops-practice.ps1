@@ -48,4 +48,13 @@ if ($singleName -eq "Dee") {
 # Output: You're not the boss.
 
 
-
+# ===== 5. Challenge: group assignment by first letter =====
+$newHires = "jsmith", "mwilliams", "jferebee", "slee"
+foreach ($newHire in $newHires) {
+    if ($newHire.Substring(0,1) -eq "j") {
+        Write-Host "$newHire add to Legal group"
+    } else {
+        Write-Host "$newHire Everyone group only"
+    }
+}
+   
