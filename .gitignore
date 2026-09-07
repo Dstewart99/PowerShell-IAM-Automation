@@ -1,0 +1,14 @@
+# Logs
+*.log
+
+# Credential files
+*.xml
+*credential*
+*password*
+*secret*
+
+# Test output
+*.csv
+
+# Mac system files
+.DS_Store
