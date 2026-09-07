@@ -57,4 +57,8 @@ foreach ($newHire in $newHires) {
         Write-Host "$newHire Everyone group only"
     }
 }
-   
+  # Output:
+# jsmith -> add to Legal group
+# mwilliams -> Everyone group only
+# jferebee -> add to Legal group
+# slee -> Everyone group only 
